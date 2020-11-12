@@ -1,0 +1,245 @@
+/*
+Theme Name: Bridge
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Creative Multi-Purpose WordPress Theme
+Tags: creative, portfolio, multi-purpose, clean, retina, responsive, parallax, mega menu, blog, agency, business, fullscreen, modern, background video, ajax
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 16.7
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+.form4 {
+    border: 1px solid #cec2ab;
+    background-color:#464a5b;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form4 p {
+    margin-bottom: 25px !important;
+}
+
+.form4 h4 {
+    font-size: 14px !important;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.titlebox p {
+    color: white;
+    margin-bottom: 0px !important;
+}
+
+.box {
+    color:white;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+	
+	.hotline-mobile {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 99999;
+    display: block !important;
+    padding-top: 0px;
+}
+
+.hotline-mobile .p2 {
+    float: left;
+    width: 50%;
+    height: 50px;
+    background-color: #23af60e3;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 8px 17px;
+    border-right: 1px solid #fff;
+    text-align: center !important;
+}
+
+.hotline-mobile .p1 {
+    text-align: center !important;
+    height: 100%;
+    width: 49.5%;
+    background-color: #23af60e3;
+    float:left;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 6px 16px;
+}
+
+.hotline-mobile .p2 a {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center !important;
+}
+
+.hotline-mobile .p1 a {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 15px;
+    text-align: center !important;
+	}
+
+.animate_title_text .title h1  {
+		font-size: 14px !important;
+		font-weight: 700 !important;
+	}	
+	
+	._bottom-fixed {
+		display:none;
+	}
+	
+}
+
+
+@media (min-width: 768px) {
+.hotline-mobile {
+display: none !important;
+}
+ ._bottom-fixed {
+    position: fixed;
+    left: 2.5%;
+    bottom: 25px;
+    top: auto !important;
+    background-color: #23af60e3;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+._bottom-fixed ._item1 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+	border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+._bottom-fixed ._item2 {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+._bottom-fixed ._item i {
+    margin-right: 7px;
+}
+}
+
+
+.form5 {
+    border: 1px solid #2a2a2a;
+    background-color: #2a2a2ad6;
+    background-size: contain;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form5 p {
+    margin-bottom: 25px !important;
+}
+
+.form5 h3 {
+    font-size: 14px !important;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.form5 p {
+    margin-bottom: 25px !important;
+}
+
+.form5 h4 {
+    font-size: 14px !important;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.pum-theme-432 .pum-container, .pum-theme-enterprise-blue .pum-container {
+    background-image: url(http://vinhomessmartcitys.com.vn/wp-content/uploads/2020/06/phoi-canh-imperia-smart-city.jpg) !important;
+	padding: 0px !important;
+	background-size: cover;
+}
+
+.blog_holder article .post_info a, .blog_holder article .post_text h2 .date {
+    display: none;
+}
+
+.blog_holder article .post_info {
+    display: none !important;
+}
+
+.blog_holder.blog_single article h2 {
+	display: none !important;
+}
+
+.comment_holder {
+	display:none;
+}
+
+div.comment_form {
+	display:none !important;
+}
+
+.blog_single.blog_holder article .post_text .post_text_inner {
+	   text-align: justify;
+}
+
+.blog_single.blog_holder article .post_text .post_text_inner {
+    padding-bottom: 40px !important;
+    padding-top: 30px !important;
+}
+
+.q_masonry_blog article .q_masonry_blog_post_image {
+    height: 250px !important;
+}
+
+.latest_post_two_holder .latest_post_two_info {
+	display: none !important;
+}
+
+.q_masonry_blog article .q_masonry_blog_post_info {
+	display:none;
+}
+
+.q_icon_with_title .icon_text_holder h5.icon_title {
+    color: #5472d2 !important;
+    font-size: 15px !important;
+	line-height: 24px !important;
+}
