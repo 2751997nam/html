@@ -153,8 +153,8 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://vinhomes-smart-city.vn/';
-var theme_root = 'http://vinhomes-smart-city.vn/wp-content/themes/bridge/';
+var qode_root = '/';
+var theme_root = '/wp-content/themes/bridge/';
 var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;
